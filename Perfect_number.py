@@ -7,8 +7,7 @@ for i in range(2,n):
     for j in range(1,i):
         if i%j==0:
             l1.append(j)
-    s=sum(l1)
-    if i==s:
+    if i==sum(l1):
         l2.append(i)
 if (len(l2)==0):
     print("empty")
